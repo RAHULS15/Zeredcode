@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeredcode | Elevate Your Engineering Journey</title>
+    <meta name="description" content="Zeredcode provides premium learning, project building for final year engineering students, and expert freelance development services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <div class="bg-elements">
+        <div class="perspective-grid"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Zered<span class="highlight">code</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#learning">Learning Tracks</a>
+                <a href="#freelance">Freelance</a>
+                <a href="#portfolio">Our Work</a>
+                <a href="#projects">Student Projects</a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <!-- VIRTUAL DEVELOPER BACKGROUND -->
+            <div class="virtual-typing-bg" id="virtualTypingBg"></div>
+            
+            <div class="hero-bg-text">ZEREDCODE</div>
+            <div class="container hero-container-centered">
+                <div class="hero-content-centered">
+                    <div class="badge fade-up">THE PREMIER ENGINEERING LAUNCHPAD</div>
+                    <h1 class="fade-up delay-1 giant-text">Engineered for<br><span class="gradient-text">Excellence.</span></h1>
+                    <p class="fade-up delay-2 hero-sub">We provide hands-on internships, forge industry-ready developers, and build world-class enterprise software.</p>
+                    <div class="internship-badge fade-up delay-2">
+                        <span class="pulse-dot"></span> Now Offering Elite Engineering Internships
+                    </div>
+                    <div class="hero-cta-centered fade-up delay-3">
+                        <a href="#learning" class="btn btn-primary glow-btn btn-large">Start Your Journey</a>
+                        <a href="#freelance" class="btn btn-secondary btn-large">Hire Our Team</a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- BEAUTIFUL FLOATING CODE BLOCK -->
+                <div class="hero-floating-code glass fade-in delay-4">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-body">
+<pre><code><span class="keyword">const</span> <span class="variable">engineer</span> = <span class="keyword">new</span> <span class="class">Student</span>();
+<span class="variable">engineer</span>.<span class="method">learn</span>(<span class="string">'Zeredcode'</span>);
+<span class="variable">engineer</span>.<span class="method">build</span>(<span class="string">'Enterprise App'</span>);
+
+<span class="keyword">if</span> (<span class="variable">engineer</span>.<span class="property">skills</span> === <span class="string">'Industry Ready'</span>) {
+    <span class="built_in">console</span>.<span class="method">log</span>(<span class="string">'Success! 🚀'</span>);
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW CERTIFICATES SECTION -->
+        <section id="certificates" class="section">
+            <div class="container certificates-container">
+                <div class="cert-text fade-right">
+                    <h2 class="section-title giant-text-sm">Proof of <br><span class="gradient-text">Excellence.</span></h2>
+                    <p class="section-subtitle" style="text-align: left; margin: 0 0 2rem 0;">Earn verified certificates that actually matter. Built entirely on real-world project portfolios, not abstract quizzes. Show recruiters exactly what you are capable of.</p>
+                    <a href="#contact" class="btn btn-primary glow-btn">Start Earning Today</a>
+                </div>
+                <div class="cert-visual fade-left">
+                    <div class="cert-stage">
+                        <!-- Cert 1 -->
+                        <div class="cert-card cert-1">
+                            <div class="cert-border"></div>
+                            <div class="cert-seal blue-seal"></div>
+                            <div class="cert-content">
+                                <h5>ZEREDCODE</h5>
+                                <h2>Frontend Engineer</h2>
+                                <p>This certifies the mastery of modern UI/UX and React engineering.</p>
+                                <div class="cert-signature">
+                                    <div class="line"></div>
+                                    <span>Verified by Mentors</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cert 2 -->
+                        <div class="cert-card cert-2">
+                            <div class="cert-border"></div>
+                            <div class="cert-seal purple-seal"></div>
+                            <div class="cert-content">
+                                <h5>ZEREDCODE</h5>
+                                <h2>Backend Architect</h2>
+                                <p>This certifies the mastery of Node.js, Databases, and API scaling.</p>
+                                <div class="cert-signature">
+                                    <div class="line"></div>
+                                    <span>Verified by Mentors</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cert 3 -->
+                        <div class="cert-card cert-3">
+                            <div class="cert-border"></div>
+                            <div class="cert-seal green-seal"></div>
+                            <div class="cert-content">
+                                <h5>ZEREDCODE</h5>
+                                <h2>Full-Stack Master</h2>
+                                <p>This certifies the mastery of end-to-end modern web applications.</p>
+                                <div class="cert-signature">
+                                    <div class="line"></div>
+                                    <span>Verified by Mentors</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="section testimonials-section bg-darker">
+            <div class="container testimonials-container">
+                <div class="testimonial-text fade-right">
+                    <h2 class="section-title giant-text-sm">Don't just take <br><span class="gradient-text">our word for it.</span></h2>
+                    <p class="section-subtitle" style="text-align: left;">Hear from the students who launched their careers and the founders who scaled their startups with us.</p>
+                </div>
+                <div class="testimonial-visual fade-left">
+                    <div class="testimonial-wall">
+                        <!-- Upwards Track -->
+                        <div class="testi-track track-up">
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The mentorship here completely changed how I approach code. I deployed my first full-stack app in weeks!"</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-1"></div>
+                                    <div>
+                                        <h4>Sarah J.</h4>
+                                        <span>Engineering Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"We hired Zeredcode to build our MVP. They delivered a flawless, scalable product way ahead of schedule."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-2"></div>
+                                    <div>
+                                        <h4>Michael T.</h4>
+                                        <span>Startup Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The certifications I earned here actually got me past the resume screen at top tech companies."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-3"></div>
+                                    <div>
+                                        <h4>Arjun M.</h4>
+                                        <span>Frontend Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Duplicates for seamless infinite scroll -->
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The mentorship here completely changed how I approach code. I deployed my first full-stack app in weeks!"</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-1"></div>
+                                    <div>
+                                        <h4>Sarah J.</h4>
+                                        <span>Engineering Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"We hired Zeredcode to build our MVP. They delivered a flawless, scalable product way ahead of schedule."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-2"></div>
+                                    <div>
+                                        <h4>Michael T.</h4>
+                                        <span>Startup Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The certifications I earned here actually got me past the resume screen at top tech companies."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-3"></div>
+                                    <div>
+                                        <h4>Arjun M.</h4>
+                                        <span>Frontend Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Downwards Track -->
+                        <div class="testi-track track-down">
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"Finally, a platform that focuses on real projects instead of just abstract algorithmic puzzles."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-3"></div>
+                                    <div>
+                                        <h4>Priya R.</h4>
+                                        <span>CS Undergrad</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The freelance team's pixel-perfect design and modern architecture blew our expectations out of the water."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-1"></div>
+                                    <div>
+                                        <h4>David L.</h4>
+                                        <span>E-commerce Director</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"From a struggling student to a confident software engineer. Zeredcode is the ultimate launchpad."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-2"></div>
+                                    <div>
+                                        <h4>Ananya K.</h4>
+                                        <span>Software Engineer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Duplicates for seamless infinite scroll -->
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"Finally, a platform that focuses on real projects instead of just abstract algorithmic puzzles."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-3"></div>
+                                    <div>
+                                        <h4>Priya R.</h4>
+                                        <span>CS Undergrad</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"The freelance team's pixel-perfect design and modern architecture blew our expectations out of the water."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-1"></div>
+                                    <div>
+                                        <h4>David L.</h4>
+                                        <span>E-commerce Director</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-card">
+                                <div class="stars">★★★★★</div>
+                                <p>"From a struggling student to a confident software engineer. Zeredcode is the ultimate launchpad."</p>
+                                <div class="testi-author">
+                                    <div class="avatar bg-gradient-2"></div>
+                                    <div>
+                                        <h4>Ananya K.</h4>
+                                        <span>Software Engineer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title giant-text-sm">Elevate Your <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">Comprehensive learning tracks designed specifically for engineering students to master modern tech stacks.</p>
+                </div>
+                <div class="track-list">
+                    <div class="track-row fade-up">
+                        <div class="track-number">01</div>
+                        <div class="track-content">
+                            <h3>Full-Stack Web Dev</h3>
+                            <p>Master React, Node.js, and database management. Build scalable applications.</p>
+                        </div>
+                        <div class="track-arrow">↗</div>
+                        <div class="track-bg bg-gradient-1"></div>
+                    </div>
+                    <div class="track-row fade-up delay-1">
+                        <div class="track-number">02</div>
+                        <div class="track-content">
+                            <h3>App Development</h3>
+                            <p>Create stunning cross-platform mobile apps using Flutter or React Native.</p>
+                        </div>
+                        <div class="track-arrow">↗</div>
+                        <div class="track-bg bg-gradient-2"></div>
+                    </div>
+                    <div class="track-row fade-up delay-2">
+                        <div class="track-number">03</div>
+                        <div class="track-content">
+                            <h3>AI & Machine Learning</h3>
+                            <p>Dive into Python, TensorFlow, and build intelligent models for real-world problems.</p>
+                        </div>
+                        <div class="track-arrow">↗</div>
+                        <div class="track-bg bg-gradient-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="freelance" class="section bg-darker">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title giant-text-sm">We don't just teach. <br><span class="gradient-text">We build.</span></h2>
+                    <p class="section-subtitle">Premium freelance software solutions for startups and enterprises.</p>
+                </div>
+                <div class="freelance-content">
+                    <div class="freelance-text fade-right">
+                        <h3 class="freelance-giant-h3">Why partner with Zeredcode?</h3>
+                        <ul class="feature-list">
+                            <li>
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Modern Tech Stack</h4>
+                                    <p>We use the latest tools to ensure your product is fast, secure, and future-proof.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>Pixel-Perfect Design</h4>
+                                    <p>Stunning UI/UX that engages users and elevates your brand identity.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check">✓</span>
+                                <div>
+                                    <h4>End-to-End Delivery</h4>
+                                    <p>From concept and design to deployment and maintenance, we handle it all.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary mt-4 glow-btn btn-large">Discuss Your Project</a>
+                    </div>
+                    <div class="freelance-image fade-left">
+                        <div class="image-placeholder float-animation-slow" style="border: none; background: transparent;">
+                            <div class="mockup dashboard-mockup float-animation-fast">
+                                <div class="sidebar"></div>
+                                <div class="main-area">
+                                    <div class="topbar"></div>
+                                    <div class="cards-area">
+                                        <div class="m-card"></div>
+                                        <div class="m-card"></div>
+                                        <div class="m-card"></div>
+                                    </div>
+                                    <div class="chart-area"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title">Recent <span class="highlight">Client Work</span></h2>
+                    <p class="section-subtitle">A showcase of our recent professional freelance web development projects.</p>
+                </div>
+                <div class="premium-projects-grid">
+                    <a href="https://bethelfullgospelchurch.in/" target="_blank" rel="noopener noreferrer" class="premium-project fade-up">
+                        <div class="project-image-wrapper bg-gradient-2">
+                            <div class="project-overlay">
+                                <span class="view-btn">View Live Site ↗</span>
+                            </div>
+                            <div class="project-emoji">⛪</div>
+                        </div>
+                        <div class="project-meta">
+                            <h3>Bethel Full Gospel Church</h3>
+                            <span class="tag">Web Development</span>
+                        </div>
+                    </a>
+                    <a href="https://rahulsmyportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" class="premium-project fade-up delay-1">
+                        <div class="project-image-wrapper bg-gradient-1">
+                            <div class="project-overlay">
+                                <span class="view-btn">View Live Site ↗</span>
+                            </div>
+                            <div class="project-emoji">👨‍💻</div>
+                        </div>
+                        <div class="project-meta">
+                            <h3>Rahul's Portfolio</h3>
+                            <span class="tag">UI/UX & Frontend</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section bg-darker">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title">Final Year <span class="highlight">Projects</span></h2>
+                    <p class="section-subtitle">Stand out in your placements with industry-grade projects built with our guidance.</p>
+                </div>
+                <div class="premium-projects-grid">
+                    <div class="premium-project fade-up">
+                        <div class="project-image-wrapper bg-gradient-1">
+                            <div class="project-overlay"><span class="view-btn">View Details ↗</span></div>
+                        </div>
+                        <div class="project-meta">
+                            <h3>Smart Health Predictor</h3>
+                            <span class="tag">AI / ML</span>
+                        </div>
+                    </div>
+                    <div class="premium-project fade-up delay-1">
+                        <div class="project-image-wrapper bg-gradient-2">
+                            <div class="project-overlay"><span class="view-btn">View Details ↗</span></div>
+                        </div>
+                        <div class="project-meta">
+                            <h3>Automated Smart Home</h3>
+                            <span class="tag">IoT & React Native</span>
+                        </div>
+                    </div>
+                    <div class="premium-project fade-up delay-2">
+                        <div class="project-image-wrapper bg-gradient-3">
+                            <div class="project-overlay"><span class="view-btn">View Details ↗</span></div>
+                        </div>
+                        <div class="project-meta">
+                            <h3>Decentralized Voting</h3>
+                            <span class="tag">Blockchain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEVELOPERS SECTION -->
+        <section id="developers" class="section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title">Meet the <span class="highlight">Engineers</span></h2>
+                    <p class="section-subtitle">The masterminds behind the code. Industry experts driving Zeredcode.</p>
+                </div>
+                <div class="developers-horizontal">
+                    <!-- Dev 1 -->
+                    <div class="dev-profile fade-up">
+                        <div class="dev-avatar-huge" style="background-image: url('assets/images/rahulpic.jpeg'); color: transparent;"></div>
+                        <h3 class="dev-name-huge">Rahul</h3>
+                        <span class="dev-role-neon">Full Stack Workflow</span>
+                        <div class="company-logo equiwiz-logo">
+                            <img src="assets/images/equiwizlogo.jpg" alt="Equiwiz"> Equiwiz
+                        </div>
+                        <p class="dev-tech-text">Java, Kafka, Temporal, Node.js, React</p>
+                    </div>
+                    
+                    <!-- Dev 2 -->
+                    <div class="dev-profile fade-up delay-1">
+                        <div class="dev-avatar-huge bg-gradient-2">N</div>
+                        <h3 class="dev-name-huge">Nagarathna</h3>
+                        <span class="dev-role-neon">Java Backend</span>
+                        <div class="company-logo tcs-logo">
+                            <img src="assets/images/tcslogo.jpg" alt="TCS"> TCS
+                        </div>
+                        <p class="dev-tech-text">5+ years of enterprise experience. Java, Backend.</p>
+                    </div>
+
+                    <!-- Dev 3 -->
+                    <div class="dev-profile fade-up delay-2">
+                        <div class="dev-avatar-huge" style="background-image: url('assets/images/Asitpic.jpg'); color: transparent;"></div>
+                        <h3 class="dev-name-huge">Asit Kumar</h3>
+                        <span class="dev-role-neon">DevOps Champion</span>
+                        <div class="company-logo iqvia-logo">
+                            <img src="assets/images/iqvialogo.jpg" alt="IQVIA"> IQVIA
+                        </div>
+                        <p class="dev-tech-text">DevOps, CI/CD pipelines, and AWS Cloud architecture.</p>
+                    </div>
+
+                    <!-- Dev 4 -->
+                    <div class="dev-profile fade-up">
+                        <div class="dev-avatar-huge" style="background-image: url('assets/images/shivampic.png'); color: transparent;"></div>
+                        <h3 class="dev-name-huge">Shivam</h3>
+                        <span class="dev-role-neon">Frontend</span>
+                        <div class="company-logo iit-logo">
+                            <svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg> IIT
+                        </div>
+                        <p class="dev-tech-text">React, UI/UX, and Modern Frontend Engineering.</p>
+                    </div>
+
+                    <!-- Dev 5 -->
+                    <div class="dev-profile fade-up delay-1">
+                        <div class="dev-avatar-huge" style="background-image: url('assets/images/koushikpic.jpg'); color: transparent;"></div>
+                        <h3 class="dev-name-huge">Koushik</h3>
+                        <span class="dev-role-neon">Mobile App Developer</span>
+                        <div class="company-logo equiwiz-logo">
+                            <img src="assets/images/equiwizlogo.jpg" alt="Equiwiz"> Equiwiz
+                        </div>
+                        <p class="dev-tech-text">React Native, iOS, Android, and Mobile Architectures.</p>
+                    </div>
+
+                    <!-- Dev 6 -->
+                    <div class="dev-profile fade-up delay-2">
+                        <div class="dev-avatar-huge bg-gradient-3">Na</div>
+                        <h3 class="dev-name-huge">Namratha</h3>
+                        <span class="dev-role-neon">AI/ML Developer</span>
+                        <div class="company-logo google-logo">
+                            <img src="assets/images/googlelogo.png" alt="Google"> Ex Google
+                        </div>
+                        <p class="dev-tech-text">Machine Learning, Python, Neural Networks, and AI Integration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-darker">
+            <div class="container contact-container">
+                <div class="contact-info fade-right">
+                    <h2 class="section-title contact-giant-title">WANT TO CODE? <br><span class="gradient-text">JOIN US.</span></h2>
+                    <p class="contact-subtitle">Whether you're a student looking for guidance or a business needing a digital solution, we're here to help.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <span>hello@zeredcode.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <span>+91 9591542901</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>Tech Hub, Bangalore, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form premium-form fade-left" id="contactForm">
+                    <div class="input-line">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-line">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="input-line">
+                        <select id="interest" required style="cursor: none;">
+                            <option value="" disabled selected>I'm interested in...</option>
+                            <option value="learning">Learning Tracks</option>
+                            <option value="project">Final Year Project</option>
+                            <option value="freelance">Freelance Services</option>
+                        </select>
+                    </div>
+                    <div class="input-line">
+                        <textarea id="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary glow-btn full-width btn-large" style="margin-top: 2rem;">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text">Zered<span class="highlight">code</span></span>
+                </a>
+                <p>Empowering engineers. Building digital excellence.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <a href="#home">About Us</a>
+                    <a href="#home">Careers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Services & Work</h4>
+                    <a href="#learning">Learning</a>
+                    <a href="#freelance">Freelance Dev</a>
+                    <a href="#portfolio">Our Portfolio</a>
+                    <a href="#projects">Student Projects</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zeredcode. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+919591542901" class="floating-call-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
